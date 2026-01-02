@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Двухколоночный макет на таблице</title>
+</head>
+<body>
+
+<table width="100%" border="1" cellpadding="10" cellspacing="0">
+
+
+    <tr>
+        <td colspan="2">
+            <p>
+                Для будь-якого натурального числа <strong>n&gt;2</strong> 
+                рівняння <i>a<sup>n</sup> + b<sup>n</sup> = c<sup>n</sup></i> 
+                <strong>не має рішень</strong> при цілих ненульових числах a, b, c.
+            </p>
+        </td>
+    </tr>
+
+
+    <tr valign="top">
+
+
+        <td width="70%">
+
+            <div>
+
+
+                <h2 id="currency">Курс валют</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Код валюти</th>
+                            <th>Назва валюти</th>
+                            <th>Курс до гривні (UAH)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>USD</td>
+                            <td>Долар США</td>
+                            <td>42.20</td>
+                        </tr>
+                        <tr>
+                            <td>EUR</td>
+                            <td>Євро</td>
+                            <td>48.50</td>
+                        </tr>
+                        <tr>
+                            <td>GBP</td>
+                            <td>Фунт Стерлінгів</td>
+                            <td>52.10</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>
+                    Дані наведені для прикладу. Інформація може змінюватися залежно
+                    від офіційного курсу Національного банку України.
+                </p>
+
+                <hr>
+
+
+                <h2 id="theory">Теоретичний розділ</h2>
+                <p>
+                    Теорема Ферма є однією з найвідоміших теорем в історії математики.
+                    Вона була сформульована П'єром Ферма у XVII столітті та доведена
+                    лише в 1994 році Ендрю Вайлсом.
+                </p>
+                <p>
+                    Довгий час ця теорема залишалася недоведеною, що породило величезну
+                    кількість досліджень у галузі теорії чисел.
+                </p>
+                <p>
+                    (Тут спеціально додано більше тексту, щоб збільшити довжину сторінки
+                    і можна було протестувати прокрутку та переходи за якорями.)
+                </p>
+
+                <hr>
+
+
+            <img src="https://nure.ua/wp-content/uploads/2021/osin_06122021.png" alt="Опис картинки" width="500">
+
+            </div>
+
+        </td>
+
+
+        <td width="30%">
+
+            <aside>
+
+
+                <h2 id="voting">Форма голосування</h2>
+                <form action="#" method="post">
+                    <p>Який предмет вам подобається найбільше?</p>
+                    
+                    <input type="radio" id="math" name="subject" value="math">
+                    <label for="math">Вища математика</label><br>
+                    
+                    <input type="radio" id="prog" name="subject" value="prog">
+                    <label for="prog">Програмування</label><br>
+                    
+                    <input type="radio" id="history" name="subject" value="history">
+                    <label for="history">Історія України</label><br><br>
+
+                    <label for="comment">Ваш коментар:</label><br>
+                    <textarea id="comment" name="comment" rows="4" cols="30"></textarea><br><br>
+
+                    <button type="reset">Надіслати голос</button>
+                    <button type="reset">Очистити</button>
+                </form>
+
+                <hr>
+
+                <h2 id="structure">Структура університету ХНУРЕ</h2>
+
+                <ul>
+                    <li>Факультет комп’ютерних наук
+                        <ul>
+                            <li>Кафедра програмної інженерії</li>
+                            <li>Кафедра штучного інтелекту</li>
+                            <li>Кафедра інформаційних систем</li>
+                        </ul>
+                    </li>
+
+                    <li>Факультет комп’ютерної інженерії та управління
+                        <ul>
+                            <li>Кафедра комп’ютерної інженерії</li>
+                            <li>Кафедра автоматизації та управління</li>
+                        </ul>
+                    </li>
+
+                    <li>Факультет електроніки та телекомунікацій
+                        <ul>
+                            <li>Кафедра електронних обчислювальних засобів</li>
+                            <li>Кафедра телекомунікаційних систем</li>
+                        </ul>
+                    </li>
+
+                    <li>Факультет інформаційно-аналітичних технологій та менеджменту
+                        <ul>
+                            <li>Кафедра економічної кібернетики</li>
+                            <li>Кафедра менеджменту</li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+            </aside>
+
+        </td>
+
+    </tr>
+
+
+    <tr>
+        <td colspan="2">
+
+            <footer>
+
+                <h3>Зміст сторінки</h3>
+                <ul>
+                    <li><a href="#currency" target="_blank">Курс валют</a></li>
+                    <li><a href="#theory" target="_blank">Теоретичний розділ</a></li>
+                    <li><a href="#practice" target="_blank">Практичний розділ</a></li>
+                    <li><a href="#voting" target="_blank">Форма голосування</a></li>
+                </ul>
+
+            </footer>
+
+        </td>
+    </tr>
+
+</table>
+
+</body>
+</html>
